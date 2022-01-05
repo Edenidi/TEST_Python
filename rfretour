@@ -1,0 +1,17 @@
+class TestMonProgramme() : 
+    def test_nb_caracteres(code) :
+        if len(code) < 10 or len(code) > 25 : 
+            print(" le code doit etre Entre 10 et 25 caractères ")
+            
+    def chfr(code) : 
+        if chr.isdigit() for chr in code == False : 
+            print("votre code ne contien pas de chiffre")
+    def carac(code) :
+        if set('[~!@#$%^&*()_+{}":;\']+$').intersection(code) == "" : 
+            print("votre code de contien pas de caractéres sp ")
+    def maj(code) :
+        if ele.isupper() for ele in code == False ! 
+            print("votre code de contien pas le Maj ")
+    def min(code) :
+        if  code.isupper() == True : 
+            print("votre code de contien pas le miniscule ")
