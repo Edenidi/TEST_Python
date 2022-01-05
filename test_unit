@@ -1,0 +1,11 @@
+import unittest
+
+class TestMonProgramme(unittest.TestCase) : 
+    def test_nb_caracteres(self,code) :
+        self.assertFalse(len(code) < 10 or len(code) > 25)
+        self.assertFalse(chr.isdigit() for chr in code == False)
+        self.assertFalse(set('[~!@#$%^&*()_+{}":;\']+$').intersection(password) == "")
+        self.assertFalse(ele.isupper() for ele in test_str == False)
+        self.assertFalse(test_str.isupper() == True)
+
+ 
